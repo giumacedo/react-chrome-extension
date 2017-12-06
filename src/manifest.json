@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Shop Alert - Save money live better",
+  "short_name": "Shop Alert",
+  "description": "",
+  "version": "1.0.0",
+  "icons": {
+    "64": "assets/icon-128.png",
+    "128": "assets/icon-256.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/icon-128.png",
+    "default_title": "Shop Alert",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["popup.bundle.js"]
+  },
+  "permissions": ["activeTab", "tabs", "storage", "webRequest", "webRequestBlocking", "<all_urls>"]
+}
