@@ -1,0 +1,26 @@
+{
+  "name": "shop-alert",
+  "version": "1.0.0",
+  "description": "A browser extension to save your products list and follow up their prices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giumacedo/react-chrome-extension.git"
+  },
+  "keywords": [
+    "react",
+    "chrome",
+    "extension",
+    "redux",
+    "webpack"
+  ],
+  "author": "giumacedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giumacedo/react-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/giumacedo/react-chrome-extension#readme"
+}
